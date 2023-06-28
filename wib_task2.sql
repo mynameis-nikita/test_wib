@@ -11,10 +11,10 @@
 WITH monthly_info AS (
 	SELECT mnth, AVG(revenue) AS mon_avg_rev 
 	FROM (SELECT YEAR(Purchases.`date`) AS yr, MONTHNAME(Purchases.`date`) as mnth, SUM(price) AS revenue	   
-		  FROM Users INNER JOIN Purchases USING (userId)
-		  		     INNER JOIN Items USING (itemId)	   
-		  WHERE age >= 35
-		  GROUP BY 1,2) t1 
+	      FROM Users INNER JOIN Purchases USING (userId)
+		  	 INNER JOIN Items USING (itemId)	   
+	      WHERE age >= 35
+	      GROUP BY 1,2) t1 
 	GROUP BY 1)
 
 SELECT mnth AS best_month
