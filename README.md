@@ -7,8 +7,10 @@
 3) Некоторые решения представлены в 2-х вариантах, для запуска скрипта нужно закомментировать неиспользуемое решение
 
 #### РЕШЕНИЕ
-<a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/db_creation.sql'>Создание и заполнение таблиц</a></br>
-<a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/wib_task1.sql'>Задание 1</a></br>
+<a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/db_creation.sql'>Создание и заполнение таблиц</a> 
+</br>
+<a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/wib_task1.sql'>Задание 1</a>
+<a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/img'>Результат</a></br>
 <a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/wib_task2.sql'>Задание 2</a></br>
 <a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/wib_task3.sql'>Задание 3</a></br>
 <a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/wib_task4.sql'>Задание 4</a>
