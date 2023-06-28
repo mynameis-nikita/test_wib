@@ -6,4 +6,4 @@
 2) Таблица Purchases заполняется путем "вытаскивания" случайной комбинации user-item и случайной даты в диапозоне 2-х лет с дня запуска скрипта
 3) Некоторые решения представлены в 2-х вариантах, для запуска скрипта нужно закомментировать неиспользуемое решение
 
-</a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/db_creation.sql'>Создание и заполнение таблиц</a>
+<a href = 'https://github.com/mynameis-nikita/test_wib/blob/main/db_creation.sql'>Создание и заполнение таблиц</a>
