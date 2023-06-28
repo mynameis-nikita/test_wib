@@ -8,15 +8,14 @@
 */
 
 
-
 SELECT rnk, itemId, summa, 
        summa * 100 / (SELECT SUM(price) 
-					  FROM Purchases INNER JOIN Items USING (itemId) 
-		       	      WHERE YEAR(Purchases.`date`) = 2022) AS part 
+		      FROM Purchases INNER JOIN Items USING (itemId) 
+		      WHERE YEAR(Purchases.`date`) = 2022) AS part 
 	   
 FROM (SELECT itemId, SUM(price) as summa, RANK() OVER (ORDER BY SUM(price) DESC) AS rnk
-	  FROM Purchases INNER JOIN Items USING(itemID)
-	  WHERE YEAR(Purchases.`date`) = 2022
-	  GROUP BY itemId) t1
+      FROM Purchases INNER JOIN Items USING(itemID)
+      WHERE YEAR(Purchases.`date`) = 2022
+      GROUP BY itemId) t1
 WHERE rnk <= 3
 
